@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - AISuccess.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for products page */
+        .products-container {
+            padding: 3rem 0;
+        }
+        
+        .products-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .product-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-image {
+            height: 200px;
+            background-color: #f3f4f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6b7280;
+            font-size: 1.2rem;
+        }
+        
+        .product-info {
+            padding: 1.5rem;
+        }
+        
+        .product-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: #1e40af;
+        }
+        
+        .product-description {
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        
+        .product-price {
+            font-weight: bold;
+            font-size: 1.25rem;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+        
+        .product-button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .product-button:hover {
+            background-color: #1e40af;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AISuccess.com</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="products-container">
+        <div class="container">
+            <div class="products-header">
+                <h2>Our AI-Powered Digital Products</h2>
+                <p>Transform your business with our suite of AI-enhanced digital products</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">AI for Entrepreneurs eBook</div>
+                    <div class="product-info">
+                        <h3 class="product-title">AI for Entrepreneurs eBook</h3>
+                        <p class="product-description">Learn how to leverage AI to automate your business processes, save time, and increase revenue.</p>
+                        <p class="product-price">$97</p>
+                        <a href="#" class="product-button">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">30-Day Business Automation Bootcamp</div>
+                    <div class="product-info">
+                        <h3 class="product-title">30-Day Business Automation Bootcamp</h3>
+                        <p class="product-description">A comprehensive email course that guides you through implementing AI automation in your business.</p>
+                        <p class="product-price">$197</p>
+                        <a href="#" class="product-button">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">AI-Powered Productivity System</div>
+                    <div class="product-info">
+                        <h3 class="product-title">AI-Powered Productivity System</h3>
+                        <p class="product-description">Digital planners and templates designed to help you leverage AI for maximum productivity.</p>
+                        <p class="product-price">$147</p>
+                        <a href="#" class="product-button">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">Complete Automation Bundle</div>
+                    <div class="product-info">
+                        <h3 class="product-title">Complete Automation Bundle</h3>
+                        <p class="product-description">Get all our products at a discounted price and transform your business with comprehensive AI automation.</p>
+                        <p class="product-price">$369</p>
+                        <a href="#" class="product-button">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AISuccess.com. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
